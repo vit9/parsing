@@ -4,6 +4,11 @@ const got = require('got');
 const puppeteer = require('puppeteer');
 
 const url = 'https://...'; // some url 
+
+// const response = await axios.get(url); get web page
+// const $ = cheerio.load(response.data); get web page html
+// const node = $('.products-grid a'); // find some html node
+
 module.exports = () => {
 
     function extractItems() {
